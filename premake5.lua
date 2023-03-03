@@ -679,3 +679,138 @@ solution "CSharpProgramming"
             runtime "Release"
             optimize "Full"
             symbols "Off"
+
+
+    project "26.Nullable"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../26.Nullable", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../26.Nullable/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
+
+
+    project "27.UsingVar"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../27.UsingVar", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../27.UsingVar/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
+
+
+    project "28.CTS"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../28.CTS", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../28.CTS/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
+
+
+    project "29.StringSearch"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../29.StringSearch", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../29.StringSearch/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
+
+
+    project "30.StringModify"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../30.StringModify", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../30.StringModify/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
