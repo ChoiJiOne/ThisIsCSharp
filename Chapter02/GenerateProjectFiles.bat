@@ -10,6 +10,6 @@ if exist %project% (
 )
 
 echo run premake5.exe...
-Bin\\premake5.exe %visualstudio%
+..\\Bin\\premake5.exe %visualstudio%
 start %project%\\%project%.sln
 PAUSE
