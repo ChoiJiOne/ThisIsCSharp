@@ -814,3 +814,165 @@ solution "CSharpProgramming"
             runtime "Release"
             optimize "Full"
             symbols "Off"
+
+
+    project "31.StringSlice"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../31.StringSlice", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../31.StringSlice/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
+
+
+    project "32.StringFormatBasic"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../32.StringFormatBasic", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../32.StringFormatBasic/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
+
+
+    project "33.StringFormatNumber"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../33.StringFormatNumber", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../33.StringFormatNumber/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
+
+
+    project "34.StringFormatDatetime"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../34.StringFormatDatetime", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../34.StringFormatDatetime/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
+
+
+    project "35.StringInterpolation"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../35.StringInterpolation", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../35.StringInterpolation/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
+
+
+    project "36.Exercise"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../36.Exercise", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../36.Exercise/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
