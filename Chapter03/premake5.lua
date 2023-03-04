@@ -8,7 +8,7 @@ solution "CSharpProgramming"
     -- 솔루션 경로를 설정합니다.
     location "%{wks.name}"
 
-    project "04.IntegralTypes"
+    project "01.IntegralTypes"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -16,10 +16,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../04.IntegralTypes", }
+        includedirs { "%{wks.location}/../01.IntegralTypes", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../04.IntegralTypes/*", }
+        files { "%{wks.location}/../01.IntegralTypes/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -34,8 +34,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "05.VitaminQuiz"
+    project "02.VitaminQuiz"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -43,10 +42,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../05.VitaminQuiz", }
+        includedirs { "%{wks.location}/../02.VitaminQuiz", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../05.VitaminQuiz/*", }
+        files { "%{wks.location}/../02.VitaminQuiz/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -61,8 +60,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "06.IntegerLiterals"
+    project "03.IntegerLiterals"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -70,10 +68,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../06.IntegerLiterals", }
+        includedirs { "%{wks.location}/../03.IntegerLiterals", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../06.IntegerLiterals/*", }
+        files { "%{wks.location}/../03.IntegerLiterals/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -88,8 +86,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "07.SignedUnsigned"
+    project "04.SignedUnsigned"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -97,10 +94,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../07.SignedUnsigned", }
+        includedirs { "%{wks.location}/../04.SignedUnsigned", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../07.SignedUnsigned/*", }
+        files { "%{wks.location}/../04.SignedUnsigned/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -115,8 +112,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-    
-    project "08.Overflow"
+    project "05.Overflow"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -124,10 +120,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../08.Overflow", }
+        includedirs { "%{wks.location}/../05.Overflow", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../08.Overflow/*", }
+        files { "%{wks.location}/../05.Overflow/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -142,8 +138,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "09.VitaminQuiz"
+    project "06.VitaminQuiz"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -151,10 +146,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../09.VitaminQuiz", }
+        includedirs { "%{wks.location}/../06.VitaminQuiz", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../09.VitaminQuiz/*", }
+        files { "%{wks.location}/../06.VitaminQuiz/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -169,8 +164,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "10.FloatingPoint"
+    project "07.FloatingPoint"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -178,10 +172,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../10.FloatingPoint", }
+        includedirs { "%{wks.location}/../07.FloatingPoint", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../10.FloatingPoint/*", }
+        files { "%{wks.location}/../07.FloatingPoint/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -196,8 +190,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "11.Decimal"
+    project "08.Decimal"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -205,10 +198,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../11.Decimal", }
+        includedirs { "%{wks.location}/../08.Decimal", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../11.Decimal/*", }
+        files { "%{wks.location}/../08.Decimal/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -223,8 +216,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "12.Char"
+    project "09.Char"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -232,10 +224,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../12.Char", }
+        includedirs { "%{wks.location}/../09.Char", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../12.Char/*", }
+        files { "%{wks.location}/../09.Char/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -250,8 +242,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "13.String"
+    project "10.String"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -259,10 +250,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../13.String", }
+        includedirs { "%{wks.location}/../10.String", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../13.String/*", }
+        files { "%{wks.location}/../10.String/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -277,8 +268,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-    
-    project "14.Bool"
+    project "11.Bool"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -286,10 +276,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../14.Bool", }
+        includedirs { "%{wks.location}/../11.Bool", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../14.Bool/*", }
+        files { "%{wks.location}/../11.Bool/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -304,8 +294,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "15.Object"
+    project "12.Object"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -313,10 +302,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../15.Object", }
+        includedirs { "%{wks.location}/../12.Object", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../15.Object/*", }
+        files { "%{wks.location}/../12.Object/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -331,8 +320,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "16.BoxingUnboxing"
+    project "13.BoxingUnboxing"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -340,10 +328,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../16.BoxingUnboxing", }
+        includedirs { "%{wks.location}/../13.BoxingUnboxing", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../16.BoxingUnboxing/*", }
+        files { "%{wks.location}/../13.BoxingUnboxing/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -358,8 +346,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "17.IntegralConversion"
+    project "14.IntegralConversion"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -367,10 +354,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../17.IntegralConversion", }
+        includedirs { "%{wks.location}/../14.IntegralConversion", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../17.IntegralConversion/*", }
+        files { "%{wks.location}/../14.IntegralConversion/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -385,8 +372,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "18.FloatConversion"
+    project "15.FloatConversion"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -394,10 +380,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../18.FloatConversion", }
+        includedirs { "%{wks.location}/../15.FloatConversion", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../18.FloatConversion/*", }
+        files { "%{wks.location}/../15.FloatConversion/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -412,8 +398,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "19.SignedUnsignedConversion"
+    project "16.SignedUnsignedConversion"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -421,10 +406,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../19.SignedUnsignedConversion", }
+        includedirs { "%{wks.location}/../16.SignedUnsignedConversion", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../19.SignedUnsignedConversion/*", }
+        files { "%{wks.location}/../16.SignedUnsignedConversion/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -439,8 +424,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "20.FloatToIntegral"
+    project "17.FloatToIntegral"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -448,10 +432,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../20.FloatToIntegral", }
+        includedirs { "%{wks.location}/../17.FloatToIntegral", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../20.FloatToIntegral/*", }
+        files { "%{wks.location}/../17.FloatToIntegral/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -466,8 +450,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "21.StringNumberConversion"
+    project "18.StringNumberConversion"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -475,10 +458,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../21.StringNumberConversion", }
+        includedirs { "%{wks.location}/../18.StringNumberConversion", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../21.StringNumberConversion/*", }
+        files { "%{wks.location}/../18.StringNumberConversion/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -493,8 +476,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "22.Constant"
+    project "19.Constant"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -502,10 +484,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../22.Constant", }
+        includedirs { "%{wks.location}/../19.Constant", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../22.Constant/*", }
+        files { "%{wks.location}/../19.Constant/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -520,8 +502,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "23.Enum"
+    project "20.Enum"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -529,10 +510,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../23.Enum", }
+        includedirs { "%{wks.location}/../20.Enum", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../23.Enum/*", }
+        files { "%{wks.location}/../20.Enum/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -547,8 +528,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "24.Enum2"
+    project "21.Enum2"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -556,10 +536,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../24.Enum2", }
+        includedirs { "%{wks.location}/../21.Enum2", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../24.Enum2/*", }
+        files { "%{wks.location}/../21.Enum2/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -574,8 +554,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "25.Enum3"
+    project "22.Enum3"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -583,10 +562,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../25.Enum3", }
+        includedirs { "%{wks.location}/../22.Enum3", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../25.Enum3/*", }
+        files { "%{wks.location}/../22.Enum3/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -601,8 +580,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "26.Nullable"
+    project "23.Nullable"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -610,10 +588,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../26.Nullable", }
+        includedirs { "%{wks.location}/../23.Nullable", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../26.Nullable/*", }
+        files { "%{wks.location}/../23.Nullable/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -628,8 +606,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "27.UsingVar"
+    project "24.UsingVar"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -637,10 +614,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../27.UsingVar", }
+        includedirs { "%{wks.location}/../24.UsingVar", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../27.UsingVar/*", }
+        files { "%{wks.location}/../24.UsingVar/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -655,8 +632,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "28.CTS"
+    project "25.CTS"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -664,10 +640,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../28.CTS", }
+        includedirs { "%{wks.location}/../25.CTS", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../28.CTS/*", }
+        files { "%{wks.location}/../25.CTS/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -682,8 +658,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "29.StringSearch"
+    project "26.StringSearch"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -691,10 +666,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../29.StringSearch", }
+        includedirs { "%{wks.location}/../26.StringSearch", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../29.StringSearch/*", }
+        files { "%{wks.location}/../26.StringSearch/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -709,8 +684,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "30.StringModify"
+    project "27.StringModify"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -718,10 +692,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../30.StringModify", }
+        includedirs { "%{wks.location}/../27.StringModify", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../30.StringModify/*", }
+        files { "%{wks.location}/../27.StringModify/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -736,8 +710,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "31.StringSlice"
+    project "28.StringSlice"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -745,10 +718,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../31.StringSlice", }
+        includedirs { "%{wks.location}/../28.StringSlice", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../31.StringSlice/*", }
+        files { "%{wks.location}/../28.StringSlice/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -763,8 +736,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "32.StringFormatBasic"
+    project "29.StringFormatBasic"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -772,10 +744,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../32.StringFormatBasic", }
+        includedirs { "%{wks.location}/../29.StringFormatBasic", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../32.StringFormatBasic/*", }
+        files { "%{wks.location}/../29.StringFormatBasic/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -790,8 +762,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "33.StringFormatNumber"
+    project "30.StringFormatNumber"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -799,10 +770,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../33.StringFormatNumber", }
+        includedirs { "%{wks.location}/../30.StringFormatNumber", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../33.StringFormatNumber/*", }
+        files { "%{wks.location}/../30.StringFormatNumber/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -817,8 +788,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "34.StringFormatDatetime"
+    project "31.StringFormatDatetime"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -826,10 +796,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../34.StringFormatDatetime", }
+        includedirs { "%{wks.location}/../31.StringFormatDatetime", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../34.StringFormatDatetime/*", }
+        files { "%{wks.location}/../31.StringFormatDatetime/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -844,8 +814,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "35.StringInterpolation"
+    project "32.StringInterpolation"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -853,10 +822,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../35.StringInterpolation", }
+        includedirs { "%{wks.location}/../32.StringInterpolation", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../35.StringInterpolation/*", }
+        files { "%{wks.location}/../32.StringInterpolation/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
@@ -871,8 +840,7 @@ solution "CSharpProgramming"
             optimize "Full"
             symbols "Off"
 
-
-    project "36.Exercise"
+    project "33.Exercise"
         -- 프로젝트의 종류를 설정합니다.
         kind "ConsoleApp"
 
@@ -880,10 +848,10 @@ solution "CSharpProgramming"
         language "C#"
 
         -- 소스 코드 경로를 추가합니다.
-        includedirs { "%{wks.location}/../36.Exercise", }
+        includedirs { "%{wks.location}/../33.Exercise", }
 
         -- 소스 파일을 추가합니다.
-        files { "%{wks.location}/../36.Exercise/*", }
+        files { "%{wks.location}/../33.Exercise/*", }
 
         -- 빌드의 구성 요소별 설정을 수행합니다.
         filter "configurations:Debug"
