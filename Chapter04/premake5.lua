@@ -249,3 +249,57 @@ solution "CSharpProgramming"
             runtime "Release"
             optimize "Full"
             symbols "Off"
+
+
+    project "10.AssignmentOperator"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../10.AssignmentOperator", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../10.AssignmentOperator/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
+
+
+    project "11.NullCoalescing"
+        -- 프로젝트의 종류를 설정합니다.
+        kind "ConsoleApp"
+
+        -- 프로그래밍 언어를 설정합니다.
+        language "C#"
+
+        -- 소스 코드 경로를 추가합니다.
+        includedirs { "%{wks.location}/../11.NullCoalescing", }
+
+        -- 소스 파일을 추가합니다.
+        files { "%{wks.location}/../11.NullCoalescing/*", }
+
+        -- 빌드의 구성 요소별 설정을 수행합니다.
+        filter "configurations:Debug"
+            defines { "DEBUG" }
+            runtime  "Debug"
+            optimize "Off"
+            symbols "On"
+
+        filter "configurations:Release"
+            defines { "NDEBUG"  }
+            runtime "Release"
+            optimize "Full"
+            symbols "Off"
